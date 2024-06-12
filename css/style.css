@@ -1,0 +1,24 @@
+:root { 
+    --color1: rgb(98, 133, 139);
+    --color2: rgb(44, 64, 105);
+}
+
+header, footer {
+    padding: 10px 0;
+    background: linear-gradient(to right,  rgb(98, 133, 139) 0%,rgb(44, 64, 105));
+}
+
+/*.logo {
+    max-width: 25%; 
+    
+}*/
+
+.common_text {
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+}
+
+.nav-color:hover {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
