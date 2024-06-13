@@ -3,15 +3,20 @@
     --color2: rgb(44, 64, 105);
 }
 
+body {
+    background-color:gainsboro;
+}
 header, footer {
     padding: 10px 0;
     background: linear-gradient(to right,  rgb(98, 133, 139) 0%,rgb(44, 64, 105));
 }
 
-/*.logo {
-    max-width: 25%; 
-    
-}*/
+.back-pass {
+    background-image: url("../pic/pass-pic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+}
 
 .common_text {
     font-family:'Times New Roman', Times, serif;
@@ -21,4 +26,11 @@ header, footer {
 .nav-color:hover {
     font-weight: bold;
     color: rgb(255, 255, 255);
+}
+
+.show_pass {
+    font-size:smaller;
+    position: relative;
+    left: 58px;
+    top: -15px;
 }
